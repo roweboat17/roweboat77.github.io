@@ -1,0 +1,105 @@
+#header{
+    position:absolute;
+    top:0;
+    Right:20px;
+    Left:20px;
+    background-color: #ccfcd0;
+    font-family:"Calibri";
+    text-align: center;
+    height: 150px;
+}
+#body {
+    background-image: url("yeezy.jpg")
+    
+}
+
+.title{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font: "apple chancery"
+    
+    
+    
+}
+
+
+.resume {
+    align-content: center;
+    
+}
+#nav{
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    left: 20px;
+    background-color: black;
+    height: 50px;
+    text-align:center;
+    color: #ccfcd0;
+}
+#nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+#nav li{
+    float:right;
+    border-right:1px solid white;
+
+}
+
+#nav li:first-child {
+    border-right:none;
+}
+#nav a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
+}
+
+#graph {
+    position: absolute;
+    top: 225px;
+    left: 20px;
+
+}
+
+#homenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+} 
+
+#paragraph{
+    position: relative;
+    top:225px;
+    right:20px;
+    width:335px;
+    height:700px;
+    background-image: <img src="pics/yeezy.JPG" style="height:550px">;
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    color: black;
+    bottom: 500px;
+    padding: 5px;
+    text-align: center;
+    font-family: cambria;
+
+}
+
+#footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+#footer p {
+    margin: 0;
+    padding: 50px 0;
+}
